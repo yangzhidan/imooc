@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.warpper{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+
+.warpper .top-warp{
+    width: 100%;
+    height: 72px;
+    background-color: white;
+    box-shadow: #c5c5c5 0 0 10px 0;
+    padding: 0 10px 0 15px;
+
+}
+
+.warpper .content-warp{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.warpper .content{
+    width: 1152px;
+    height: 444px;
+    margin: 30px auto;
+    box-shadow: #c5c5c5 0 0 30px 0;
+    border-radius: 10px;
+}
+
+.warpper .bottom-warp{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.warpper .ad-warp{
+    position: fixed;
+    height: 300px;
+    width: 60px;
+    background-color: white;
+    box-shadow: #c5c5c5 0px 0px 5px 5px;
+    right: 0;
+    top: 50%;
+    margin-top: -150px;
+}
+
+
+.warpper .top-warp .top-logo{
+    width: 140px;
+    height: 72px;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.warpper .top-warp .top-nav{
+    height: 100%;
+    display: inline-block;
+
+}
+
+.warpper .top-warp .top-logo img{
+    width: 140px;
+    height: 60px;
+    margin-bottom: 6px;
+}
+
+
+.warpper .top-warp .top-nav .top-nav-item{
+    float: left;
+    margin-right: 10px;
+    color: #444;
+    font-weight: 700;
+}
+
+.warpper .top-warp .top-nav .top-nav-item a{
+    height: 72px;
+    line-height: 72px;
+    margin: 0 5px;
+    font-size: 16px;
+    color: #444;
+
+}
+.warpper .top-warp .top-nav .top-nav-item a:hover{
+    color: red;
+    
+}
+
+.warpper .top-warp .top-nav .top-nav-item .new-label{
+    background-color: red;
+    height: 16px;
+    width: 16px;
+
+}
+
+.warpper .content-warp .content .content-left{
+    float: left;
+    height: 100%;
+    width: 216px;
+    background-color: #444;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.warpper .content-warp .content .content-left ul{
+    margin-top: 12px;
+    padding-left: 12px;
+}
+
+.warpper .content-warp .content .content-left li span{
+    width: 172px;
+    height: 60px;
+    padding: 0 16px;
+    line-height: 60px;
+    display: inline-block;
+    color: rgba(255,255,255,.6);
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+}
+
+.warpper .content-warp .content .content-left li span:after{
+    display:block;
+    content:'';
+    border-width:4px;
+    border-style:solid;
+    border-color:transparent transparent transparent rgba(255,255,255,.6);
+    position: relative;
+    top:-60%; 
+    left: 95%;
+}
+.warpper .content-warp .content .content-left li span:hover{
+    background-color: gray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+}
+
+
+.warpper .content-warp .content .content-right{
+    float: right;
+    height: 100%;
+    width: 936px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  
+}
+
+.warpper .content-warp .content .content-right .content-r-top{
+    height: 316px;
+    background-color: aquamarine;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+.warpper .content-warp .content .content-right .content-r-top .content-banner{
+    border-top-right-radius: 10px;
+}
+
+.warpper .content-warp .content .content-right .content-r-top .content-arrows{
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+}
+
+.warpper .content-warp .content .content-right .content-r-top .content-right-arrows{
+    float: right;
+    right: 0;
+
+}
+
+.warpper .content-warp .content .content-right .content-r-top .content-left-arrows{
+    float: left;
+    left: 0;
+}
+
+.warpper .content-warp .content .content-right .content-r-top .banner-next{
+    height: 20px;
+    width: 20px;
+    padding: 15px 10px;
+}
+
+.warpper .content-warp .content .content-right .content-r-top .banner-next:hover{
+    background-color: #444;
+    opacity: 0.5;
+}
+
+
+
+.warpper .content-warp .content .content-right .content-r-bottom{
+    height: 128px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    padding-left: 18px;
+}
+
+
+.warpper .content-warp .content .content-right .content-r-bottom .content-bottom{
+    float: left;
+    width: 220px;
+    height: 128px;
+
+}
+
+.warpper .content-warp .content .content-right .content-r-bottom .content-bottom .slide{
+    width: 220px;
+    height: 128px;
+}
+
+.warpper .content-warp .content .content-right .content-r-bottom .content-bottom .slide:hover{
+    margin-top: -5px;
+}
+
+.warpper .content-warp .content .content-right .content-r-bottom .content-bottom .content-bottom-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.warpper .content-warp .content .content-right .content-r-bottom .content-bottom .slide .title{
+  
+    color: #444;
+    font-size: 14px;
+}
+
+.warpper .content-warp .content .content-right .content-r-bottom .content-bottom .slide .label{
+    margin-top: 5px;
+    color: #999;
+    font-size: 12px;
+}
+
+.warpper .bottom-warp .bottom-content{
+    width: 1152px;
+    height: 252px;
+    margin: 0 auto;
+
+}
+
+.warpper .bottom-warp .bottom-content .content-center{
+    margin-left: -18px;
+    width: 1170px;
+    height: 252px;
+
+}
+
+
+.warpper .bottom-warp .bottom-item{
+    width: 216px;
+    height: 252px;
+    margin-left: 18px;
+    margin-top: 20px;
+    float: left;
+}
+.warpper .bottom-warp .bottom-item .bottom-icon{
+    width: 216px;
+    border-radius: 5px;
+}
+
+.warpper .bottom-warp .bottom-item .bottom-icon:hover{
+    box-shadow: #c5c5c5 10px 10px 30px 10px;
+}
+
+.warpper .bottom-warp .bottom-item .bottom-label{
+    text-align: left;
+    margin-top: 5px;
+}
+
+.warpper .bottom-warp .bottom-item .bottom-price{
+    text-align: left;
+    width: 216px;
+    color: #999;
+    margin-top: 5px;
+}
+
+
